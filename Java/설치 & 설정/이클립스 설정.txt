@@ -1,0 +1,2 @@
+이클립스 설치하자마자 설정해야하는 것
+window -> Preferences -> en 검색 -> Workspace -> default (x) Other(UTF-8) (o)
