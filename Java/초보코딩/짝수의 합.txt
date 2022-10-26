@@ -1,0 +1,13 @@
+class Solution {
+    public int solution(int n) {
+        int answer = 0;
+
+        for (int loop = 1; loop <= n; loop++) {
+            if (loop % 2 == 0)
+            answer += loop;
+        }
+        return answer;
+    }
+}
+
+n % 2 == 0 은 생각보다 많이 쓰이므로 알아야 합니다. (짝수, 홀수 판별)
