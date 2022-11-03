@@ -1,0 +1,19 @@
+머쓱이네 피자가게는 피자를 일곱 조각으로 잘라 줍니다. 
+
+피자를 나눠먹을 사람의 수 n이 주어질 때, 모든 사람이 피자를 한 조각 이상 먹기 위해 필요한 피자의 수를 return 하는 solution 함수를 완성해보세요.
+
+class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        
+        answer = (int)(Math.floor(n-1)/7)+1;
+        
+        return answer;
+    }
+}
+
+n이 15일 경우 (15-1)을 하면 14가 되고, 14 / 7 = 2이므로 여기에 +1을 하면 입출력 예 result처럼 3이 나옵니다.
+
+floor() 메서드를 사용했을 때 나오는 값은 실수 값이므로 (int)를 이용하여 명시적 형변환을 진행한 후 answer에 결과값을 대입합니다.
+
+round()는 반올림, ceil()은 올림, floor()는 버림입니다.
