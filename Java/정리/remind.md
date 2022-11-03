@@ -53,6 +53,8 @@
    예를들어 길이가 4인 배열은 모두 4개의 요소(저장공간)을 가지며 인덱스의 범위는 0부터 4까지, 즉 0, 1, 2, 3 이 된다.<br>
    <hr>
    
-   
+` Arrays.sort(array);`
+
+  sort는 오름차순 &   Arrays.sort(arr,Collections.reverseOrder()); 내림차순 
    
    
