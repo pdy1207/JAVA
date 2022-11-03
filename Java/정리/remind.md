@@ -41,7 +41,7 @@
    
 `Math.`
 
-   (int)(Math.floor(n-1)/7)+1; 중 
-   round() 반올림 , ceil() 올림, floor() 버림
+   (int)(Math.floor(n-1)/7)+1; 중 <br>
+   round() 반올림 , ceil() 올림, floor() 버림<br>
       <hr>
       
