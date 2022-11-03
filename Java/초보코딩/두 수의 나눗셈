@@ -1,0 +1,22 @@
+class Solution {
+    public int solution(int num1, int num2) {
+        int answer = 0;
+        double temp = 0;
+        temp = (double)num1/num2;
+        temp = 1000*temp;
+        answer = (int)temp;
+        return answer;
+    }
+}
+
+int타입의 매개변수를 나누어 값을 double로 만든 후, *1000을해서 int로 타입변경해주고 answer에 값 넣어주자.
+
+int 타입은 정수형이라 소수점 아래 나머지를 남기지 않는다. 
+
+그래서 temp = (double)num1/num2; 해줘야한다. 두 매개변수중 하나만 double이어도 double 타입이 된다.
+
+(double)(num1/num2) 하지만 이렇게 괄호 안에 넣으면 타입캐스팅이 안된다.
+
+두 매개변수 연산 전에 타입을 바꾸어주어야 한다.
+
+정리 : int타입의 매개변수를 나누어 double로 정수를 만든후 *1000을해서 int타입으로 변경 
