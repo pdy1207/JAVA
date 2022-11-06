@@ -1,0 +1,26 @@
+package study;
+
+public class study3 {
+	
+		public static void main(String[] args) {
+			
+			/*
+			 * 1 ~ 100 출력 후 3의 배수엔 "Fizz"
+			 * 5의 배수엔 "Buzz" 출력
+			 * 3의 배수 5의 배수일땐 "FizzBuzz" 출력
+			 * */
+
+			for(int i=1; i<=100; i++) {
+				if(i%3==0 && i%5==0) {
+					System.out.println("FizzBuzz");	
+				}else if(i%3==0) {
+					System.out.println("Fizz");
+				}else if(i%5==0) {
+					System.out.println("Buzz");
+				}else {
+					System.out.println(i+"");
+				}
+			}
+		}
+}
+
